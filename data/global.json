@@ -1,0 +1,21 @@
+{
+  "note": "M2: jen to, co je změřené na originálu (sources/docs/screen_layout.md, sources/docs/disasm_notes.md, sources/asm/hints.txt). Fyzika, entity a zvuky přijdou v M3–M7 a do té doby tu nemají co být.",
+  "frameRate": 50.08,
+  "frameRateNote": "3 500 000 / 69 888 T-stavů na snímek; hlavní smyčka běží jednou za snímek (změřeno na klidné scéně, histogram v jeskyni je M3)",
+  "lives": 3,
+  "livesNote": "životy jsou na $5B09 (dvě nezávislá místa kódu + dobový POKE), výchozí hodnota je operand instrukce na $86CC",
+  "initRoom": 6,
+  "initRoomNote": "místnost, ve které hra začíná – změřeno na $5B04 hned po nabídce ovládání ($06 = řádek 0, sloupec 6, povrch Měsíce)",
+  "roomsNote": "M2: místnost se skládá z kulisových bloků originálu (data/scenery.json + data/rooms.json, app/roomScenery.js). Ověřeno proti kreslicí rutině originálu na všech 256 místnostech, 0 rozdílů (tools/matchscreen.py, tools/matchrooms.js).",
+  "screen": {
+    "width": 256, "height": 192,
+    "playWidth": 256, "playHeight": 168, "playRows": 21,
+    "panelRows": 3, "panelScreenRow": 21
+  },
+  "world": {"columns": 16, "rows": 16, "roomsCount": 256, "roomWidth": 256, "roomHeight": 168},
+  "worldNote": "mřížka 16 × 16 potvrzená v M2 z dat hry ($5B04, tabulky $B500/$B600 po 256 bajtech, rutina přechodu $882B) i proti dobové screenshotové mapě (tools/mapworld.py --check: 252 z 252 rozhodnutelných polí)",
+  "worldWrap": true,
+  "worldWrapNote": "svět je torus – sloupec i řádek se zacyklují (rutina přechodu $882B počítá room = řádek*16 + sloupec s maskami $0F/$F0)",
+  "borderColor": 0,
+  "borderNote": "snapshot má border 0 (černý); jestli ho hra za běhu mění, je otevřená otázka (ZADANI §8)"
+}

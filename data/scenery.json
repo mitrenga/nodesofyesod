@@ -1,0 +1,1208 @@
+{
+ "note": "M2: kulisov\u00e9 bloky a pravidla skl\u00e1d\u00e1n\u00ed, vyta\u017een\u00e9 z obrazu RAM (tools/dumpgfx.py). Dla\u017edice je 9 bajt\u016f: 8 bitmapy + atribut. Bit 7 indexu dla\u017edice = vodorovn\u00e9 zrcadlen\u00ed.",
+ "source": "nodesofyesod-48k.bin",
+ "themeTable": 25260,
+ "mirrorTable": {
+  "address": 65024,
+  "isByteReverse": true,
+  "builtAtRuntime": true,
+  "note": "v obrazu po nahrani je prazdna, ale rozehrana hra si ji dopocita \u2013 overeno bajt po bajtu"
+ },
+ "themes": [
+  {
+   "index": 0,
+   "role": "kulisa",
+   "tiles": {
+    "address": 28549,
+    "count": 114,
+    "bytesPerTile": 9,
+    "data": "AAAAAAAAAAAAAAMPHz8/f35BAAABBw8JIzdMAMDw+Pz8/v5EgMDA4GAgYPBMBwcHAwAAAABM/pgMBAgAg/5Mfn8/Px8PAwBEAAAAgIDAwMBM/n48PDhwQABEAAEBAgwx4w9PmL15OXPj4PFPM3vfn47H4flPAICAwHCcz+BPAAAAAAAYJCzFAGCQvD4/f3/FAAMMESevz+/FAINk9Pj58cHFzh9////////FPz8/Px8fHw/N7/Pw8Pj4+PDNw4cHAwAAAADN48+fnh4MAADNAAAAAAABAQHFAGCQkJg4ODjFAQECAgICAjTFODh8fHx8bNfFAA4XFzd3enrFXFxcXFxcXFzF1/f3///n25/FgIDAwNjU5OTFelpaVrW1trbFubm5uXJy5uTFnz8/P39/fv7FzM/Pnp8/f3/FMCEBAAAAAADN5OTgwAAAAADN/PhwAAAAAADNPwEAAAAAAADNAAAAAAAAABzFJi5OTk5Oj4/FABgkLV9eXFnFAACAQEBAwMDFAAAAAAAAAPnFjw8fHx8fHx/Fmbm5sbOz09PFw8TJ6+v39/HFDX3////35c7FPz8/Px8fAADNw8PBwMCAAADN8PDgAAAAAADNDh4cAAAAAADNAAAAAAABAQLFAAAA5psTNzfFAAAAAAAAAgPFAgICAgICNEzFN7e/v78/P3/FBQUJfJ4ePz/FAICAwMDg4ODFXlxcnJ6enj/Ff39/f39/fnnFPz8/+5k5ff3F4ODw6MjEnJzFPz8/Pz8/Pz/FeXNzc7Ozs7LF/////vz8OfnFvD5+fn/////FHwAAAAAAAADNAgYGBAAAAADNeHhwMAAAAADNfj4AAAAAAADNAAMNFRIMAwBPc7m93d4f4B9P//79/f/wD/BPAPD49OQI8ABPAAAA/P/////OAAAAAAAAPz/OAAAAAAAAAAfOAAAAAAAAAITOAAAAAAAAIDPOAAAAAAADD47OAQcPP/8zHT3OgODs7+/39/fO/v78/P39/wDOf3///////w/O5+fPz5+fn5/OjP29vX5+fgDOH5/f7+/v5/jOxufz9+f3/wDOeXl5eXn5+QHO9/f3///////OAAAAAAAAAAHOAAAAAAAwX9/OAAAAAgMnx8/OAAAAAAAAgIDOAAAAAAMH53POAAAAAMDgwMDOH3////////7O35+fvz8/Pz/Oz9/f39/f//fOgMDw4MfPn3/OAgYGfv7////Oc3n5+Xx+bm7O4uPn5+fz8/vOAODw8/Hj4+PO/v78+fnz8/DOf3//////+ADO5+fPz5+fHx/O////v39/fwDO///////v9wPO5+fz8+PzB8DO/f39/f///QzO5+f39/f//wDOAAAAAAAAAADO"
+   },
+   "displayList": {
+    "address": 28395,
+    "blocks": [
+     {
+      "index": 0,
+      "address": 28395,
+      "width": 4,
+      "height": 5,
+      "tiles": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       14,
+       15,
+       16,
+       17,
+       18,
+       19,
+       20,
+       21,
+       22
+      ]
+     },
+     {
+      "index": 1,
+      "address": 28416,
+      "width": 4,
+      "height": 5,
+      "tiles": [
+       0,
+       23,
+       24,
+       0,
+       0,
+       25,
+       26,
+       0,
+       27,
+       28,
+       29,
+       30,
+       31,
+       32,
+       33,
+       34,
+       35,
+       36,
+       37,
+       38
+      ]
+     },
+     {
+      "index": 2,
+      "address": 28437,
+      "width": 4,
+      "height": 5,
+      "tiles": [
+       0,
+       0,
+       0,
+       0,
+       39,
+       0,
+       0,
+       0,
+       40,
+       41,
+       42,
+       43,
+       44,
+       45,
+       46,
+       47,
+       48,
+       49,
+       50,
+       51
+      ]
+     },
+     {
+      "index": 3,
+      "address": 28458,
+      "width": 4,
+      "height": 5,
+      "tiles": [
+       52,
+       53,
+       54,
+       0,
+       55,
+       56,
+       57,
+       58,
+       59,
+       60,
+       61,
+       62,
+       63,
+       64,
+       65,
+       66,
+       67,
+       68,
+       69,
+       70
+      ]
+     },
+     {
+      "index": 4,
+      "address": 28479,
+      "width": 8,
+      "height": 3,
+      "tiles": [
+       113,
+       113,
+       113,
+       113,
+       113,
+       113,
+       113,
+       113,
+       75,
+       76,
+       77,
+       78,
+       79,
+       80,
+       81,
+       82,
+       83,
+       84,
+       85,
+       86,
+       87,
+       88,
+       89,
+       90
+      ]
+     },
+     {
+      "index": 5,
+      "address": 28504,
+      "width": 8,
+      "height": 3,
+      "tiles": [
+       91,
+       92,
+       93,
+       94,
+       113,
+       95,
+       96,
+       113,
+       97,
+       98,
+       99,
+       100,
+       101,
+       102,
+       103,
+       104,
+       105,
+       106,
+       107,
+       108,
+       109,
+       110,
+       111,
+       112
+      ]
+     },
+     {
+      "index": 6,
+      "address": 28529,
+      "width": 4,
+      "height": 1,
+      "tiles": [
+       71,
+       72,
+       73,
+       74
+      ]
+     },
+     {
+      "index": 7,
+      "address": 28534,
+      "width": 4,
+      "height": 1,
+      "tiles": [
+       10,
+       11,
+       12,
+       13
+      ]
+     },
+     {
+      "index": 8,
+      "address": 28539,
+      "width": 3,
+      "height": 3,
+      "tiles": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "role": "kulisa",
+   "tiles": {
+    "address": 25437,
+    "count": 105,
+    "bytesPerTile": 9,
+    "data": "AAAAAAAAAAAAMLa1tVZaWnqD4OZycrm5ubmDfn5/fz8/P5+DAH8/n57Pz8yDenp3NxcXDgCDXFxcXFxcXFyDn9vn///399eD5OTU2MDAgICDNAICAgICAQGD19B8fHx8ODiDAQEBAQAAAACDODg4OJiQkGCDHh8fHx8fj4+DE5Ozs7G5uZmDgff36+vJxMODzuX3///+fAyDj09OTk4uJhyDWVxeXy0kGACDwMBAQECAAACD+AAAAAAAAACDH38/PryQYACDD8+vJxEMAwCDw/H5+PRkgwCDw/////9/H86DLCQYAAAAAACDBz8/Pz8/Pz+DArOzs3Nzc3mD+Dn8/P7///+DAPj/f35+PryDPp6enpxcXF6DeX5/f39/f3+D/X05mfs/Pz+DnJzEyOjw4OCDTDQCAgICAgKDfz8/v7+/tzeDPz8ennwJBQWD4ODgwMCAgACDAgEBAAAAAACDNzcTm+YAAACDAwIAAAAAAACD+fn5+fn5/f2GmLy8/Hx+fnyG/f39/+/v7++GeHh4cHDw8PCG7+7u/v7+7u6G4ODg4Ojo2NiG7u7u7u7v7++G2Nj48PDw8PiG39/f39/f39+G/Ly8vLy8vLyG35+fn5+fn9+GvDo6Ph6cnJyGAMDf38/Pz8+EAD+fn9/f39+E///////+/v6EgP+/Pz9/f3+Ez8/v7+/v7w+E7+/v7+/v//iE/v7+/v///wCE/////39/f3+ED//v7+/Pz9+EgL+/39/f3/+EB+fn5/f39/eE4M/Pn5+/v/+E39/v7+/Pz8CE/7+/39/f3x+E9/fv7/f39/CE39/fn5+/gACET34/Px8PBweE4D6en9/f39+E////f39+dnaEAwMBAQAAAACE7+/v7+3tfXmEdnb25ufHz8+E4M/Pn5+/v/+EAMDf38/Pzc2EADy8uPjw4MCE39/fn5u7u3mEzc/v7/7e3JyEgIAAAAAAAACEMLa1tVZaWnqE4OZycrm5ubmEfn5/fz8/P5+EAG8/n5/PTk6Eejo3FxcOAACEXFx8XNpaWjGEntrk+PDw4MCEJCQUGAAAAACEHJ2dTk5OJyeED+/v7+fn5+eEA/N3d3M7u7+EJhYXFxMTEwuE5/Nzc/Pk4MCEXl5eLCwkGACECwsLCQcAAACEwMCAgAAAAACE8/Pz8wB5eXnG/////wD////G/////wD///+G/////wD+/v6GAAsLBQUFBQXFAODgwMDAwMCFBQUFBQUFBQXFwMDAwMDAwMCF"
+   },
+   "displayList": {
+    "address": 25280,
+    "blocks": [
+     {
+      "index": 0,
+      "address": 25280,
+      "width": 4,
+      "height": 4,
+      "tiles": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       0,
+       9,
+       10,
+       0,
+       0,
+       11,
+       12,
+       0
+      ]
+     },
+     {
+      "index": 1,
+      "address": 25297,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       13,
+       14,
+       15,
+       16,
+       17,
+       18,
+       19,
+       20
+      ]
+     },
+     {
+      "index": 2,
+      "address": 25306,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       21,
+       22,
+       23,
+       24,
+       0,
+       0,
+       0,
+       25
+      ]
+     },
+     {
+      "index": 3,
+      "address": 25315,
+      "width": 4,
+      "height": 4,
+      "tiles": [
+       26,
+       27,
+       28,
+       29,
+       30,
+       31,
+       32,
+       33,
+       34,
+       35,
+       36,
+       37,
+       38,
+       39,
+       40,
+       0
+      ]
+     },
+     {
+      "index": 4,
+      "address": 25332,
+      "width": 2,
+      "height": 3,
+      "tiles": [
+       41,
+       42,
+       43,
+       44,
+       45,
+       46
+      ]
+     },
+     {
+      "index": 5,
+      "address": 25339,
+      "width": 2,
+      "height": 3,
+      "tiles": [
+       47,
+       48,
+       49,
+       50,
+       51,
+       52
+      ]
+     },
+     {
+      "index": 6,
+      "address": 25346,
+      "width": 2,
+      "height": 3,
+      "tiles": [
+       170,
+       169,
+       172,
+       171,
+       174,
+       173
+      ]
+     },
+     {
+      "index": 7,
+      "address": 25353,
+      "width": 2,
+      "height": 3,
+      "tiles": [
+       176,
+       175,
+       178,
+       177,
+       180,
+       179
+      ]
+     },
+     {
+      "index": 8,
+      "address": 25360,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       53,
+       54,
+       55,
+       56,
+       57,
+       58,
+       59,
+       60
+      ]
+     },
+     {
+      "index": 9,
+      "address": 25369,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       61,
+       62,
+       63,
+       64,
+       65,
+       66,
+       67,
+       68
+      ]
+     },
+     {
+      "index": 10,
+      "address": 25378,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       0,
+       69,
+       70,
+       71,
+       0,
+       72,
+       73,
+       74
+      ]
+     },
+     {
+      "index": 11,
+      "address": 25387,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       75,
+       76,
+       77,
+       0,
+       78,
+       79,
+       80,
+       0
+      ]
+     },
+     {
+      "index": 12,
+      "address": 25396,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       81,
+       82,
+       83,
+       84,
+       85,
+       86,
+       87,
+       88
+      ]
+     },
+     {
+      "index": 13,
+      "address": 25405,
+      "width": 3,
+      "height": 3,
+      "tiles": [
+       89,
+       90,
+       91,
+       92,
+       93,
+       94,
+       95,
+       96,
+       0
+      ]
+     },
+     {
+      "index": 14,
+      "address": 25415,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       97,
+       98,
+       99,
+       100,
+       101,
+       102,
+       101,
+       102
+      ]
+     },
+     {
+      "index": 15,
+      "address": 25424,
+      "width": 4,
+      "height": 3,
+      "tiles": [
+       103,
+       104,
+       103,
+       104,
+       103,
+       104,
+       103,
+       104,
+       103,
+       104,
+       103,
+       104
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "role": "kulisa",
+   "tiles": {
+    "address": 26538,
+    "count": 107,
+    "bytesPerTile": 9,
+    "data": "AAAAAAAAAAAA3r8+fX17+fDBP1//////v//B/JfHv39/b2/Bfv///v7////B9uZPn9/fbzfB399vX1+vs9/Bt9vc78ifvz7B/HLsmCDgwIDBFgMBAQAAAADB87x/3+93NwvB/fv39uzs6NjBgAAAAAAAAADBCwsNBAYGAwPBsHBgQECAgADBdndv7/f3Yx3B99vt5d3545/Bw+duZ3h3/9/B//9/nu4+nODB/v9/f7+/3//Bf////////f/B7/H+///////B/P4+xPre7sTB/39/Ph8/Hw/B99+7598f37/B///////////B/My4uNiwsGDBDwcBAAAAAADB/9/v93k8DwPB/v798+9OPODBwMCAAAAAAADB//9fJx5le//Bj9/fv0+yzvHBj7uNdnv8//3B/v//POIe/v7B//+/v9/meQ/B//+6V2688MDB86zfr283GAfB3Og23ubu3IjBu318/v7/v7/B/3+/v79fX1/Bf/9/b7+vb1/B7uvt8tze/9PBv19cKzUVBwPBbj3Cf16mnADB2bXNep/scw/B96/v3r58+MDB729vNxdn+/uE/vjw8ODu29eEc42tt7vcZ3+E3768sG7T3+6EeCcfOH9///+E7DDM9jrM9v6Efwd5fuXR7pmE/PDoHPT2erqEd89+HWP37++EvT3d7662+O6E318vM3xPsd+E8/39/36M8PyEATN69vTr69fD4Dx//f7////DAAAA+A/39+/DABxi/L/f7+/D19vD7d5fHw7D/////3+/Xz/D9//+/f3z/MDD71/fvr58+HDDBzFLX1n8/v/D4Mz9+/fvL9/DP//////////D8Pz++v39/f3D/38/T/f3717D39/f7+/PGyXD///////+/fvD/fn79j7E+PzDAQ4RJigp0fPD43cnb3/////D///////////DAMDw/Prm1+fD////Z3k+DwDD9/f7//8H/P/D/////////z/D8/v+/v78+IDDHX72jnmH7vfC459///f3+z/C+/fv7vH////CvN7fH+/39/bC93s9DQAAAADC37/f53gfAADC//3vPvDAAADCbu7ePGw0GADCHn//z3MeAQ/CefdvbHf5/vfC/f7//x/uOMTC4vt9fX3zDt7CDQcGBwMBAADC9/v/f4/z/x/C/v7+/Pz4wIDCbDgAAAAAAADC8/Pz8wB5eXnG/////wD////G/////wD///+G/////wD+/v6GAAsLBQUFBQXFAODgwMDAwMCFBQUFBQUFBQXFwMDAwMDAwMCF"
+   },
+   "displayList": {
+    "address": 26382,
+    "blocks": [
+     {
+      "index": 0,
+      "address": 26382,
+      "width": 4,
+      "height": 4,
+      "tiles": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12,
+       0,
+       13,
+       14,
+       0
+      ]
+     },
+     {
+      "index": 1,
+      "address": 26399,
+      "width": 4,
+      "height": 4,
+      "tiles": [
+       15,
+       16,
+       17,
+       18,
+       19,
+       20,
+       21,
+       22,
+       23,
+       24,
+       25,
+       26,
+       27,
+       28,
+       29,
+       30
+      ]
+     },
+     {
+      "index": 2,
+      "address": 26416,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       31,
+       32,
+       33,
+       34,
+       35,
+       36,
+       37,
+       38
+      ]
+     },
+     {
+      "index": 3,
+      "address": 26425,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       39,
+       40,
+       41,
+       42,
+       43,
+       44,
+       45,
+       46
+      ]
+     },
+     {
+      "index": 4,
+      "address": 26434,
+      "width": 2,
+      "height": 3,
+      "tiles": [
+       176,
+       175,
+       178,
+       177,
+       180,
+       179
+      ]
+     },
+     {
+      "index": 5,
+      "address": 26441,
+      "width": 2,
+      "height": 3,
+      "tiles": [
+       182,
+       181,
+       184,
+       183,
+       186,
+       184
+      ]
+     },
+     {
+      "index": 6,
+      "address": 26448,
+      "width": 2,
+      "height": 3,
+      "tiles": [
+       47,
+       48,
+       49,
+       50,
+       51,
+       52
+      ]
+     },
+     {
+      "index": 7,
+      "address": 26455,
+      "width": 2,
+      "height": 3,
+      "tiles": [
+       53,
+       54,
+       55,
+       56,
+       57,
+       58
+      ]
+     },
+     {
+      "index": 8,
+      "address": 26462,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       59,
+       60,
+       61,
+       62,
+       63,
+       64,
+       65,
+       66
+      ]
+     },
+     {
+      "index": 9,
+      "address": 26471,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       67,
+       68,
+       69,
+       70,
+       71,
+       72,
+       73,
+       74
+      ]
+     },
+     {
+      "index": 10,
+      "address": 26480,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       206,
+       205,
+       204,
+       203,
+       210,
+       209,
+       208,
+       207
+      ]
+     },
+     {
+      "index": 11,
+      "address": 26489,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       75,
+       76,
+       77,
+       78,
+       79,
+       80,
+       81,
+       82
+      ]
+     },
+     {
+      "index": 12,
+      "address": 26498,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       83,
+       84,
+       85,
+       86,
+       87,
+       88,
+       89,
+       90
+      ]
+     },
+     {
+      "index": 13,
+      "address": 26507,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       91,
+       92,
+       93,
+       94,
+       95,
+       96,
+       97,
+       98
+      ]
+     },
+     {
+      "index": 14,
+      "address": 26516,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       99,
+       100,
+       101,
+       102,
+       103,
+       104,
+       103,
+       104
+      ]
+     },
+     {
+      "index": 15,
+      "address": 26525,
+      "width": 4,
+      "height": 3,
+      "tiles": [
+       105,
+       106,
+       105,
+       106,
+       105,
+       106,
+       105,
+       106,
+       105,
+       106,
+       105,
+       106
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "role": "kulisa",
+   "tiles": {
+    "address": 27639,
+    "count": 84,
+    "bytesPerTile": 9,
+    "data": "AAAAAAAAAAAAAH9/f39BXRzHAP7+/v7+/gDHPz8/A/v7+PjFAH9/f39/f//HHBwcHBwcHBzHf39/f39/AADFgL6+vr6+Pj7F/////wAAAADHPj4+PgAAAADFAX19fX19fH/F/////v7+AADHv7+/Du7u7uDFv7+/Af39/f3Ff38AAAAAAADF4ODg4OAAAADE/f0BPz8/AADFfH19fX19fQCFAPz9/f39/X3FAAD+/v7+/gCF/////////wHFf39/f39/fwDHfXB3d3d3d3fFfz+/v7+/v7/E/f38/Pz8wN/EAwMAAAAAAADF9/cHBwcHBwfFgL6+gICAgICFHx8fHx8fHwDEAAB/f39/f3/Ff39/f39/f3/HAH98fX19fX3EAOAA///////Ff3x9fX19fH/FfwP7+/v7A3/HfX19fX1wd3fE//////8/v7/FfwF9fX18fHzEfn5+fgAAAADHB+fn5+fn5+fEgICAgICAgIDEfHx8fHwAAADE5+fn5+Dg4ADEgICAgAAAAADE9/d7e3t7Oz2Evt7eXXt7ezvEHS93d//97e2EPz8enr68uLzEdXFzc3Pz8+eE/JycnM7Ozt7E5+fzc3F5eXuE3s/P3t7evLjEe3t7u9/f3f2E+Pj49PTs7OzE+Xl8ODp69/eE/Pzc3P7+fn7EAAEjd+8fP3/FABGDx+/3+/3Hgsfu3bt3r5/FEACETq/S5PbH/38/Hw8HAwHB/vz59O7fhgTFvx8PBwMBAADB+/bs2JAAAgDFAAoXL1/hcTnFBA4dutfv36HHEDh9+3ev37/FAAAQuNzu9PjHHQgAAAAAAADFcTkdDgQAAADFfz8fDwcDAQDB/Pjw4sCAAADFBA4dOhcPX+HHcTkRAAAAAADFgMTu9Pjw6NzFrhQ4fP4cGBDF8/Pz8wB5eXnG/////wD////G/////wD///+G/////wD+/v6GAAsLBQUFBQXFAODgwMDAwMCFBQUFBQUFBQXFwMDAwMDAwMCF"
+   },
+   "displayList": {
+    "address": 27501,
+    "blocks": [
+     {
+      "index": 0,
+      "address": 27501,
+      "width": 4,
+      "height": 3,
+      "tiles": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       0,
+       0,
+       9,
+       0
+      ]
+     },
+     {
+      "index": 1,
+      "address": 27514,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       10,
+       11,
+       12,
+       13,
+       14,
+       0,
+       15,
+       16
+      ]
+     },
+     {
+      "index": 2,
+      "address": 27523,
+      "width": 4,
+      "height": 3,
+      "tiles": [
+       17,
+       18,
+       19,
+       20,
+       21,
+       22,
+       23,
+       24,
+       25,
+       26,
+       27,
+       28
+      ]
+     },
+     {
+      "index": 3,
+      "address": 27536,
+      "width": 4,
+      "height": 4,
+      "tiles": [
+       29,
+       30,
+       31,
+       32,
+       33,
+       34,
+       35,
+       36,
+       37,
+       38,
+       39,
+       40,
+       41,
+       0,
+       42,
+       43
+      ]
+     },
+     {
+      "index": 4,
+      "address": 27553,
+      "width": 2,
+      "height": 3,
+      "tiles": [
+       44,
+       45,
+       46,
+       47,
+       48,
+       49
+      ]
+     },
+     {
+      "index": 5,
+      "address": 27560,
+      "width": 2,
+      "height": 3,
+      "tiles": [
+       50,
+       51,
+       52,
+       53,
+       54,
+       55
+      ]
+     },
+     {
+      "index": 6,
+      "address": 27567,
+      "width": 2,
+      "height": 3,
+      "tiles": [
+       173,
+       172,
+       175,
+       174,
+       177,
+       176
+      ]
+     },
+     {
+      "index": 7,
+      "address": 27574,
+      "width": 2,
+      "height": 3,
+      "tiles": [
+       179,
+       178,
+       181,
+       180,
+       183,
+       182
+      ]
+     },
+     {
+      "index": 8,
+      "address": 27581,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       56,
+       57,
+       58,
+       59,
+       60,
+       61,
+       62,
+       63
+      ]
+     },
+     {
+      "index": 9,
+      "address": 27590,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       64,
+       65,
+       66,
+       67,
+       68,
+       69,
+       70,
+       71
+      ]
+     },
+     {
+      "index": 10,
+      "address": 27599,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       0,
+       56,
+       57,
+       74,
+       0,
+       60,
+       61,
+       75
+      ]
+     },
+     {
+      "index": 11,
+      "address": 27608,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       72,
+       66,
+       67,
+       0,
+       73,
+       70,
+       71,
+       0
+      ]
+     },
+     {
+      "index": 12,
+      "address": 27617,
+      "width": 4,
+      "height": 2,
+      "tiles": [
+       76,
+       77,
+       78,
+       79,
+       80,
+       81,
+       80,
+       81
+      ]
+     },
+     {
+      "index": 13,
+      "address": 27626,
+      "width": 4,
+      "height": 3,
+      "tiles": [
+       82,
+       83,
+       82,
+       83,
+       82,
+       83,
+       82,
+       83,
+       82,
+       83,
+       82,
+       83
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "role": "panel",
+   "tiles": {
+    "address": 29670,
+    "count": 83,
+    "bytesPerTile": 8,
+    "data": "AAAAAAAAAAAAAAAABAQEBAAAAAAPP3b1AAAAAADA4PAEBQUFBQ4uK//+xdXF/f1WiGjkxPTkyAgvLy4uAAAAADt9/f4AAAAAkODAAAAAAAAAAAAAAz5l/QAAAAAwwKCAAAAAAAAABgf7924dP3///gAAAIDAwIDADQ0OBwAAAADx/z/cAAAAAMCAAAAAAAAAAAAAAP7+AAAAAPmJ+YmJAAAABwQEBOcAAACRER8RkQAAADkRERE5AAAA5wXFBeUAAADPSE9BTwAAAAAAf38AAAB/f39/f38AAAAAAAcPDgwAAAAA8Pg4GAwMDAwMDAwMDA4PBwAAAAAAAP//AAAAABg4+PAAAAAAGBgYGBgYGBgAAAAA//8AAAAAQUBAQHkAAADPiI+IyAAAAJ4QHBAeAAAA+SAgICEAAADPioqKygAAAJ6QnJCeAAAAABAAABAAAPyEhIyMjPwAEBAQMDAwMAD8hAT8wMT8APiICDwMjPwA/ISEhP4MDAD8gID8DIz8APyEgPyMjPwA+AgIGBgYGAB4SEj8jIz8APyEhPwMDAwAeEhI/MTExAD4yMj8xMT8APyEgMDAxPwA+ISExMTE+AD8gID4wMD8APyAgPjAwMAA/ISAzMTE/ACEhIT8xMTEACAgIDAwMDAACAgIDAyM/ACIiIj8xMTEAICAgMDAwPwA/JSU1NTU1AD8hITExMTEAPyMjISEhPwA/ISE/MDAwAD8hISEhLz8APiIiPzExMQA/ISA/AyM/AD8ICAwMDAwAISEhMTExPwAxMTEzEhIeACUlJTU1NT8AISEhHjExMQAhISE/DAwMAD8hAT8wMT8foG9obG9gX4AAAAAADAwOPHy89Lw0/T1s9S00e/P0LCx7pGTsnKSkA=="
+   },
+   "displayList": {
+    "address": 29575,
+    "blocks": [
+     {
+      "index": 0,
+      "address": 29575,
+      "width": 3,
+      "height": 3,
+      "tiles": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ]
+     },
+     {
+      "index": 1,
+      "address": 29585,
+      "width": 3,
+      "height": 3,
+      "tiles": [
+       0,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17
+      ]
+     },
+     {
+      "index": 2,
+      "address": 29595,
+      "width": 10,
+      "height": 3,
+      "tiles": [
+       27,
+       18,
+       19,
+       20,
+       21,
+       22,
+       23,
+       24,
+       25,
+       28,
+       29,
+       26,
+       26,
+       26,
+       26,
+       26,
+       26,
+       26,
+       26,
+       33,
+       30,
+       31,
+       31,
+       31,
+       31,
+       31,
+       31,
+       31,
+       31,
+       32
+      ]
+     },
+     {
+      "index": 3,
+      "address": 29626,
+      "width": 5,
+      "height": 3,
+      "tiles": [
+       27,
+       35,
+       36,
+       37,
+       28,
+       29,
+       0,
+       0,
+       0,
+       33,
+       30,
+       31,
+       31,
+       31,
+       32
+      ]
+     },
+     {
+      "index": 4,
+      "address": 29642,
+      "width": 9,
+      "height": 3,
+      "tiles": [
+       27,
+       34,
+       34,
+       38,
+       39,
+       40,
+       34,
+       34,
+       28,
+       29,
+       42,
+       41,
+       42,
+       42,
+       41,
+       42,
+       42,
+       33,
+       30,
+       31,
+       31,
+       31,
+       31,
+       31,
+       31,
+       31,
+       32
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}
