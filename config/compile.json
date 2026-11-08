@@ -1,0 +1,11 @@
+{
+    "standalone": [
+        "charliePhysics.js",
+        "molePhysics.js",
+        "monsterLogic.js",
+        "worldState.js",
+        "roomScenery.js",
+        "gameWorker.js",
+        "svision/js/audio/worker/audioProcessor.js"
+    ]
+}
